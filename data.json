@@ -1,0 +1,149 @@
+{
+  "vehicles": [
+    {
+      "id": 1,
+      "make": "Toyota",
+      "model": "Camry",
+      "year": 2020,
+      "licensePlate": "ABC-123",
+      "mileage": 45000
+    },
+    {
+      "id": 2,
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2021,
+      "licensePlate": "XYZ-789",
+      "mileage": 23000
+    },
+    {
+      "id": 3,
+      "make": "Ford",
+      "model": "F-150",
+      "year": 2019,
+      "licensePlate": "DEF-456",
+      "mileage": 67000
+    },
+    {
+      "id": 4,
+      "make": "Tesla",
+      "model": "Model 3",
+      "year": 2022,
+      "licensePlate": "ELC-001",
+      "mileage": 15000
+    },
+    {
+      "id": 5,
+      "make": "BMW",
+      "model": "X5",
+      "year": 2021,
+      "licensePlate": "LUX-999",
+      "mileage": 32000
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "vehicleId": 1,
+      "serviceType": "Oil Change",
+      "date": "2025-12-05",
+      "status": "scheduled",
+      "notes": "Regular maintenance - synthetic oil preferred"
+    },
+    {
+      "id": 2,
+      "vehicleId": 2,
+      "serviceType": "Tire Rotation",
+      "date": "2025-11-28",
+      "status": "scheduled",
+      "notes": "Check tire pressure and alignment"
+    },
+    {
+      "id": 3,
+      "vehicleId": 1,
+      "serviceType": "Brake Inspection",
+      "date": "2025-10-15",
+      "status": "completed",
+      "notes": "All brake pads in good condition"
+    },
+    {
+      "id": 4,
+      "vehicleId": 3,
+      "serviceType": "Oil Change",
+      "date": "2025-09-20",
+      "status": "completed",
+      "notes": "Synthetic oil used, oil filter replaced"
+    },
+    {
+      "id": 5,
+      "vehicleId": 4,
+      "serviceType": "Battery Replacement",
+      "date": "2025-12-10",
+      "status": "scheduled",
+      "notes": "12V battery needs replacement"
+    },
+    {
+      "id": 6,
+      "vehicleId": 5,
+      "serviceType": "Engine Diagnostic",
+      "date": "2025-08-15",
+      "status": "completed",
+      "notes": "Check engine light - oxygen sensor replaced"
+    },
+    {
+      "id": 7,
+      "vehicleId": 2,
+      "serviceType": "Wheel Alignment",
+      "date": "2025-12-01",
+      "status": "scheduled",
+      "notes": "Car pulling to the right"
+    },
+    {
+      "id": 8,
+      "vehicleId": 3,
+      "serviceType": "Transmission Service",
+      "date": "2025-07-10",
+      "status": "completed",
+      "notes": "Transmission fluid flushed and replaced"
+    },
+    {
+      "id": 9,
+      "vehicleId": 4,
+      "serviceType": "Air Filter Replacement",
+      "date": "2025-11-30",
+      "status": "scheduled",
+      "notes": "Cabin and engine air filter"
+    },
+    {
+      "id": 10,
+      "vehicleId": 5,
+      "serviceType": "General Inspection",
+      "date": "2025-06-05",
+      "status": "completed",
+      "notes": "Annual safety inspection passed"
+    }
+  ],
+  "serviceTypes": [
+    "Oil Change",
+    "Tire Rotation",
+    "Brake Inspection",
+    "Engine Diagnostic",
+    "Transmission Service",
+    "Battery Replacement",
+    "Air Filter Replacement",
+    "Wheel Alignment",
+    "General Inspection",
+    "Coolant Flush",
+    "Spark Plug Replacement",
+    "Suspension Repair",
+    "AC Service",
+    "Other"
+  ],
+  "statistics": {
+    "totalVehicles": 5,
+    "totalBookings": 10,
+    "scheduledServices": 5,
+    "completedServices": 5,
+    "cancelledServices": 0
+  }
+}

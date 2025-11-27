@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Service Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Navbar -->
+        <nav id="navbar"></nav>
+        
+        <!-- Main Content -->
+        <main class="container">
+            <!-- Summary Dashboard -->
+            <section id="dashboard-section" class="section active">
+                <div id="summary-dashboard"></div>
+            </section>
+            
+            <!-- Vehicle List -->
+            <section id="vehicles-section" class="section">
+                <div id="vehicle-list"></div>
+            </section>
+            
+            <!-- Booking Form -->
+            <section id="booking-section" class="section">
+                <div id="booking-form"></div>
+            </section>
+            
+            <!-- Service History -->
+            <section id="history-section" class="section">
+                <div id="service-history"></div>
+            </section>
+        </main>
+    </div>
+    
+    <script src="js/api.js"></script>
+    <script src="js/components/navbar.js"></script>
+    <script src="js/components/vehicleList.js"></script>
+    <script src="js/components/bookingForm.js"></script>
+    <script src="js/components/serviceHistory.js"></script>
+    <script src="js/components/summaryDashboard.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
